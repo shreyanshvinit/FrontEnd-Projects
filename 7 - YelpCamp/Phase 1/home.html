@@ -1,0 +1,102 @@
+<html>
+<head>
+    <title>YelpCamp</title>
+    <link rel="stylesheet" href="css/bootstrap4.css">
+    <link rel="stylesheet" href="css/home.css">
+    <style>
+        .navbar-brand{
+            font-size: 2rem;
+            color: white;
+        }
+        .navbar-brand:hover {
+            color: white;
+        }
+        .nav-link{
+            color : rgba(255,255,255,0.7);
+            font-size: 1.2rem;
+        }
+        .nav-link:hover {
+            color :white;
+        }
+        #topnav{
+            background-color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top py-4" id="topnav">
+        <div class="container">
+            <a href="home.html" class="navbar-brand">YelpCamp</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navcollapse">
+                <span class="navbar-toggler-icon text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="home.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="campground.html" class="nav-link">Campgrounds</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="addnew.html" class="nav-link">Add New</a>
+                    </li>
+                </ul>
+            </div>
+        </div>       
+    </nav>
+    
+    <div class="container">
+        <div class="jumbotron py-2 py-lg-4 text-white">
+            <h3 class="display-1 mb-3 ml-3 mt-4 text-center" id="shade">
+                Welcome to YelpCamp !!!
+            </h3>
+            <p class="lead d-none d-md-block text-center mt-0">
+                The ultimate collection of the best campsites in the world
+            </p>
+        </div> 
+
+        <div id="view" class="my-2">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-3 text-center">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/000/209/087/small/Night_Camping.jpg" class="img-fluid mb-3 mb-md-0">
+                </div>
+                <div class="col-md-9 text-center">
+                    <div>
+                        <p class="lead">Explore our vast collection of campsites from all over the world, see their pictures, view their reviews and plan out what's the best for you</p>
+                    </div>
+                    <div>
+                        <a href="campground.html" class="btn btn-outline-primary">View all campgrounds</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="add" class="my-4 px-2">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-4 text-center order-1 order-md-2">
+                    <img src="https://cdn3.iconfinder.com/data/icons/ios-web-user-interface-flat-circle-shadow-vol-1/512/Add_create_new_math_sign_cross_plus-512.png" class="img-fluid mb-3 mb-md-0 " id="plus">
+                </div>
+                <div class="col-md-8 text-center order-2 order-md-1">
+                    <div>
+                        <p class="lead">Have an amazing campsite to share with the world? Tell Us here</p>
+                    </div>
+                    <div>
+                        <a href="addnew.html" class="btn btn-outline-primary">Add New</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

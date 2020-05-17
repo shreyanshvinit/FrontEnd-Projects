@@ -1,0 +1,39 @@
+.nav-link
+{
+	margin-left: 8px;
+	font-size: 14px;
+	margin-right: 7px;
+}
+
+#a
+{
+	border-left: 1px solid rgba(255,255,255,0.5);
+}
+
+#topsec
+{
+	background: url('../Images/image1.jpg');
+	background-position: 0 -360px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#desc img
+{
+	margin-top: -50px;
+}
+
+.card
+{
+	border-radius: 8px;
+}
+
+#cards i
+{
+	color: white;
+}
+
+#copyright
+{
+	background-color: black;
+}

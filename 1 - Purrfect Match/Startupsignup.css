@@ -1,0 +1,28 @@
+.container{
+	padding-top: 9%;
+	width: 30%;
+	background: rgba(255,255,255,0.8);
+	padding: 30px;
+	margin-top: 10%;
+	border-radius: 20px;
+}
+
+#form2 {
+	border : 1px solid rgba(0,0,0,0.3);
+	padding: 20px;
+	border-radius: 20px;
+	border-color: blue;
+
+}
+
+h1{
+	font-size: 6vw;
+	text-shadow: 2px 2px 18px rgba(0,0,0,0.2);
+}
+body
+{
+	background: url(https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+	height: 100%;
+	background-position: center;
+}

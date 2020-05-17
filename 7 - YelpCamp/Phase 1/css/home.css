@@ -1,0 +1,47 @@
+body{
+    background: url(https://wallpaperaccess.com/full/181060.jpg);
+    background-size : auto;
+    height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+.jumbotron
+{
+    margin-top: 140px;
+    background-color: rgba(15, 117, 19,0.7);
+}
+
+#shade
+{
+    text-shadow: 8px 2px 15px rgba(0,0,0,0.6),
+                10px 20px 30px rgba(0,0,0,0.2) ;
+}
+
+
+.jumbotron .lead
+{
+    font-size: 1.8rem;
+}
+
+#view 
+{
+    background: rgba(255,255,255,0.7);
+    padding : 15px;
+    border-radius: 10px;
+}
+
+#add
+{
+    background: rgba(255,255,255,0.7);
+    padding : 15px;
+    border-radius: 10px;
+}
+
+#plus
+{
+    max-width: 170px;
+    max-height: 170px;
+}

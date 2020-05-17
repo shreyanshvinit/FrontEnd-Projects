@@ -1,0 +1,42 @@
+.nav-link
+{
+	margin-left: 8px;
+	font-size: 14px;
+	margin-right: 7px;
+}
+
+#a
+{
+	border-left: 1px solid rgba(255,255,255,0.5);
+}
+
+#topsec
+{
+	background: url('../Images/image1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 -360px;
+}
+
+#faq .card
+{
+	background-color: #333;
+}
+
+#faq a
+{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#faq a:hover
+{
+	text-decoration: none;
+}
+
+
+#copyright
+{
+	background-color: black;
+}

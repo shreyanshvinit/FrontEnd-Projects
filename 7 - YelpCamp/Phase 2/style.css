@@ -1,0 +1,30 @@
+body{
+    background: url(https://wallpaperaccess.com/full/181060.jpg);
+    background-size : auto;
+    height: auto;
+}
+
+.jumbotron
+{
+    margin-top: 140px;
+    background: url("https://invinciblengo.org/photos/event/slider/manali-girls-special-adventure-camp-himachal-pradesh-1xJtgtx-1440x810.jpg");
+    background-attachment: fixed;
+    padding: 50px;
+    background-position: 30px -90px;
+    box-sizing: border-box;
+}
+
+#imgsection
+{
+    padding: 30px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.card-header{
+    background-color: rgba(255,255,255,0.6);
+}
+
+
