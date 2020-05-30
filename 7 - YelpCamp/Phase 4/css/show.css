@@ -1,0 +1,34 @@
+#topnav
+{
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+.navbar-brand
+{
+    font-size: 2.5rem;
+}
+
+.container-fluid
+{
+    max-width: 1700px;
+    width: 90%;
+}
+
+.container
+{
+    width: 90%;
+    max-width: 1500px;
+}
+
+.well
+{
+    background-color: lavender;
+}
+
+#link-button
+{
+    padding: 0;
+    background: none;
+    border :none;
+}

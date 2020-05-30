@@ -1,0 +1,38 @@
+i
+{
+    color: white;
+}
+
+#links button
+{
+    width: 100%;
+    border-radius: 0;
+}
+#contact .input-group-text
+{
+    width: 50px;;
+}
+#links
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#intro{
+    background-color: black;
+    color: white;
+}
+
+#pic
+{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#footer button:hover .fa-cloud
+{
+    color: #343a40;
+}

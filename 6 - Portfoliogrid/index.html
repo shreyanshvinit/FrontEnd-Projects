@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfoligrid</title>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="bootstrap4.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+	crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+</head>
+
+<body>
+
+<div class="container">
+        
+    <div class="row mx-0" id="topsec">
+        <div class="col-md-5 col-lg-4 px-0">
+            <img src="person1.jpg" id="pic">
+        </div>
+        <div class="col-md-7 col-lg-8 px-0">
+            <div class="d-flex flex-column">
+                <div class="bg-dark text-white text-center"><h1 class="display-4 mt-4">Shreyash Singh</h1></div>
+                <div id="name" class="py-5 mt-0 d-flex justify-content-around align-items-center bg-dark text-white">
+                    <div><a href="https://www.linkedin.com/in/shreyash-singh-33a68318b"><i class="fab fa-linkedin"></i></a></div>
+                    <div><a href="https://www.facebook.com/shreyash.kumarsingh.5"><i class="fab fa-facebook"></i></a></div>
+                    <div><a href="https://www.instagram.com/sks_0101/"><i class="fab fa-instagram"></i></a></div>
+                    <div><a href="https://github.com/cyborg7459"><i class="fab fa-github"></i></a></div>
+                </div>
+                <div id="intro" class="bg-black p-4">
+                    <p class="m-0">Beginner full-stack developer</p>
+                </div>
+                <div id="links">
+                    <div class="row mx-0">
+                        <div class="col-3 p-0 mx-0">
+                            <button class="btn btn-info p-3 p-lg-5 text-white mx-0" data-target="#home" data-toggle="collapse">
+                                <i class="fas fa-home fa-2x"></i>
+                                <p class="text-white mb-0 d-none d-lg-block">Home</p>
+                            </button>
+                        </div>
+                        <div class="col-3 p-0 mx-0">
+                            <button class="btn btn-success p-3 p-lg-5 text-white mx-0" data-target="#resume" data-toggle="collapse">
+                                <i class="fas fa-graduation-cap fa-2x"></i>
+                                <p class="text-white mb-0 d-none d-lg-block">Resume</p>
+                            </button>
+                        </div>
+                        <div class="col-3 p-0 mx-0">
+                            <button class="btn btn-warning p-3 p-lg-5 text-white mx-0" data-target="#work" data-toggle="collapse">
+                                <i class="fas fa-folder-open fa-2x"></i>
+                                <p class="text-white mb-0 d-none d-lg-block">Work</p>
+                            </button>
+                        </div>
+                        <div class="col-3 p-0 mx-0">
+                            <button class="btn btn-danger p-3 p-lg-5 text-white mx-0" data-target="#contact" data-toggle="collapse">
+                                <i class="fas fa-envelope fa-2x"></i>
+                                <p class="text-white mb-0 d-none d-lg-block">Contact</p>
+                            </button>
+                        </div>
+                    </div>             
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="acc">
+        <div id="home" class="collapse show" data-parent="#acc">
+            <div class="card bg-primary py-4 text-white m-0">
+               <div class="card-body">
+                    <h1>Welcome to My Page</h1>
+                    <p class="lead">I am an Electrical and Electronics Engineering Undergrad at Indian Institute of Technology, Varanasi.</p>
+                    <p class="lead">I am a DEV enthusiast with keen interests in the field of Web and App Design and development, along with the field of Competitive Programming</p>
+                </div>
+            </div>
+            <div class="card py-4">
+                <div class="card-body">
+                    <h2>My Skills</h2>
+                    <p>Respresentation of a few skills I've gained over the past few months</p>
+                    <hr class="mt-4">
+                    <h4>C++</h4> 
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 70%"></div>
+                    </div>
+                    <h4>Object Oriented Programming</h4> 
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 50%"></div>
+                    </div>
+                    <h4>HTML 5</h4> 
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%"></div>
+                    </div>
+                    <h4>CSS</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%"></div>
+                    </div>
+                    <h4>Bootstrap</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 90%"></div>
+                    </div>
+                    <h4>Vanilla Javascript</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 60%"></div>
+                    </div>
+                    <h4>RESTful routing with Node.JS</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 50%"></div>
+                    </div>
+                    <h4>Express server</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 70%"></div>
+                    </div>
+                    <h4>MongoDB</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 60%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="resume" class="collapse" data-parent="#acc">
+            <div class="card bg-success py-4 text-white">
+                <div class="card-body">
+                    <h1>Educational Background</h1>
+                    <p class="lead">A small insight into my Educational History</p>
+                </div>
+            </div>
+            <div class="card py-4">
+                <div class="card-body">
+                    <h2>Where Have I Studied?</h2>
+                    <p>I have completed my primary as well as secondary education from the city of Prayagraj, Uttar Pradesh, and am currently undertaking B.Tech. course in Electrical & Electronics Engineering, IIT BHU</p>
+                    <h3 class="mt-4 ">Results and Honors</h3>
+                    <div class="row ">
+                        <div class="col-md-6 my-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4>Secondary Education</h4>
+                                    <p>Completed class 10 examination from MPVM, Prayagraj</p>
+                                    <p class="bg-dark text-white p-2">Marks : 10.0 CGPA</p>
+                                    <p class="bg-dark text-white p-2">Board : CBSE</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-muted m-0">Passing Year : 2017</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4>Senior Secondary</h4>
+                                    <p>Completed 10+2 from MPVM, Prayagraj</p>
+                                    <p class="bg-dark text-white p-2">Marks : 98 percentage</p>
+                                    <p class="bg-dark text-white p-2">Board : CBSE</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-muted m-0">Passing Year : 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4>JEE Mains</h4>
+                                    <p>Qualified the all India Entrance Examination</p>
+                                    <p class="bg-dark text-white p-2">Score : 99.72 percentile</p>
+                                    <p class="bg-dark text-white p-2">Rank : 3402</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-muted m-0">Qualfying Year : 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4>JEE Advance</h4>
+                                    <p>Qualified the all India Entrance Examination for IITs</p>
+                                    <p class="bg-dark text-white p-2">Score : 172</p>
+                                    <p class="bg-dark text-white p-2">Rank : 3177</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-muted m-0">Qualfying Year : 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="work" class="collapse" data-parent="#acc">
+            <div class="card bg-warning py-4 text-white">
+                <div class="card-body">
+                    <h1>My Work</h1>
+                    <p class="lead">A small representation of the sites I've made</p>
+                </div>
+            </div>
+            <div class="card py-4">
+                <div class="card-body">
+                    <h1>What Have I built</h1>
+                    <p>These sites have been developed using Bootstrap 4 as CSS Framework, and JavScript with jQuery. The following sites are completely responsive and are optimised for all screen sizes</p>
+                    <h3 class="mt-5">Desktop-View</h3>
+                    <div class="row mx-1">
+                        <div class="col-lg-6 my-1 p-2">
+                            <a href="img2.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-width="400" data-height="300">
+                                <img src="img2.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-lg-6 my-1 p-2">
+                            <a href="img1.jpg" data-toggle="lightbox">
+                                <img src="img1.jpg" class="img-fluid">
+                            </a>                        
+                        </div>
+                    </div>
+                    <div class="row mx-1">
+                        <div class="col-lg-6 my-1 p-2">
+                            <a href="img3.jpg" data-toggle="lightbox">
+                                <img src="img3.jpg" class="img-fluid">
+                            </a>                        
+                        </div>
+                        <div class="col-lg-6 my-1 p-2">
+                            <a href="img4.jpg" data-toggle="lightbox">
+                                <img src="img4.jpg" class="img-fluid">
+                            </a>                        
+                        </div>
+                        <div class="col-lg-6 my-1 p-2">
+                            <a href="img5.jpg" data-toggle="lightbox">
+                                <img src="img5.jpg" class="img-fluid">
+                            </a>                        
+                        </div>
+                    </div>
+                    <h3 class="mt-3">Mobile View</h3>
+                    <div class="row mx-1">
+                        <div class="col-md-6 col-lg-4 my-1 p-2">
+                            <a href="img6.jpg" data-toggle="lightbox">
+                                <img src="img6.jpg" class="img-fluid">
+                            </a>                        
+                        </div>
+                        <div class="col-md-6 col-lg-4 my-1 p-2">
+                            <a href="img7.jpg" data-toggle="lightbox">
+                                <img src="img7.jpg" class="img-fluid">
+                            </a>                        
+                        </div>
+                        <div class="col-md-6 col-lg-4 my-1 p-2">
+                            <a href="img8.jpg" data-toggle="lightbox">
+                                <img src="img8.jpg" class="img-fluid">
+                            </a>                        
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="contact" class="collapse" data-parent="#acc">
+            <div class="card py-4 bg-danger text-white">
+                <div class="card-body">
+                    <h1>Contact</h1>
+                    <p class="lead">Get in touch with me</p>
+                </div>
+            </div>
+            <div class="card py-4">
+                <div class="card-body">
+                    <h3>Get in Touch</h3>
+                <p>Kindly fill in the given form to reach out to me</p>
+                <div class="form mx-1">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text p-0 bg-danger justify-content-center"><i class="fas fa-user bg-danger"></i></div>
+                        </div>
+                        <input type="text" class="form-control bg-dark form-control-lg" placeholder="Name" >
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text p-0 bg-danger justify-content-center"><i class="fas fa-envelope bg-danger"></i></div>
+                        </div>
+                        <input type="email" class="form-control bg-dark form-control-lg" placeholder="Email" >
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text p-0 bg-danger justify-content-center"><i class="fas fa-user bg-danger"></i></div>
+                        </div>
+                        <textarea class="form-control form-control-lg bg-dark" placeholder="Description"></textarea>
+                    </div>
+                    <button class="btn btn-lg btn-block btn-danger">Submit</button>
+                </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="bg-dark p-5">
+        <button class="btn btn-outline-light"> <i class="fas fa-cloud"></i> Download Resume</button>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+<script>
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+#topnav
+{
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+.navbar-brand
+{
+    font-size: 2.5rem;
+}
+
+.container-fluid
+{
+    max-width: 1700px;
+    width: 90%;
+}
+
+.container
+{
+    width: 90%;
+    max-width: 800px;
+}
+
+#form
+{
+    margin-top: 100px;
+}
+
+.lead
+{
+    font-size: 1.5rem;
+}
+

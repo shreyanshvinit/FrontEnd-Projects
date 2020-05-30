@@ -1,0 +1,131 @@
+<html>
+<head>
+    <title>YelpCamp</title>
+    <link rel="stylesheet" href="../css/bootstrap4.css">
+    <link rel="stylesheet" href="../css/show.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-4 mb-5" id="topnav">
+        <div class="container-fluid">
+            <a href="home.html" class="navbar-brand">YelpCamp</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navcollapse">
+                <span class="navbar-toggler-icon text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="home.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="campground.html" class="nav-link">Campgrounds</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="addnew.html" class="nav-link">Add New</a>
+                    </li>
+                </ul>
+            </div>
+        </div>       
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xl-3 mb-5 order-2 order-md-1">
+                <h2 class="mb-3">Yelp Camp</h2>
+                <ul class="list-group">
+                    <li class="list-group-item active">Info 1</li>
+                    <li class="list-group-item">Info 2</li>
+                    <li class="list-group-item">Info 3</li>
+                    <li class="list-group-item">Info 4</li>
+                    <li class="list-group-item">Info 5</li>
+                  </ul>
+            </div>
+            <div class="col-md-8 col-xl-9 order-1 order-md-2">
+                <div class="card p-0 mb-4">
+                    <div class="card-header p-0">
+                        <img src="https://c1.hiqcdn.com/customcdn/500x500/blog/sites/default/files/camping-te.jpg" class="card-img-top img-fluid" alt="" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h3>
+                            <span class="text-primary">Summer Isles</span>
+                            <p class="lead float-right" id="price"><strong>$9.00/night</strong></p>
+                        </h3>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error illum nulla deleniti explicabo cumque voluptates fugiat officia quam. Tenetur nobis asperiores aperiam? Blanditiis sapiente architecto soluta quibusdam aperiam accusamus atque voluptate. Est tenetur aut consectetur magnam voluptatem voluptates deleniti fugiat! A, quibusdam sint maiores praesentium veniam sed atque libero doloremque.</p>
+                        <p class="text-danger d-inline mb-0">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            3.25 stars
+                        </p>
+                        <p class="text-danger mb-0 float-right" id="revnumber">3 reviews</p>
+                    </div>
+                    <div class="card-footer py-3 px-2">
+                        <div class="form-inline d-inline">
+                            <a href="#" class="d-inline btn btn-danger mr-4">Delete Campground</a>
+                        </div>
+                        <a href="#" class="d-inline btn btn-primary">Edit Campground</a>
+                    </div>
+                </div>
+                <div class="card well mb-5">
+                    <div class="card-body">
+                        <div class="text-right">
+                            <a href="campground.html" class="btn btn-info mx-3">Go back</a>
+                            <a href="#" class="btn btn-success">Leave a review</a>
+                        </div>
+                        <hr>
+                        <p class="text-dark d-inline">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            MountainMom
+                        </p>
+                        <p class="float-right d-inline">10 days ago</p>
+                        <p class="mb-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit harum odit possimus? Laboriosam tempora itaque quo quidem eius sunt.
+                            <form action="" class="mt-0 mr-3 p-0 float-left">
+                                <button class="text-danger" id="link-button">
+                                    Delete
+                                </button>
+                            </form>
+                            <a href="#" class="text-primary mr-2 comment-option">Edit</a>
+                        </p>
+                        <p class="text-dark d-inline">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            Charlie
+                        </p>
+                        <p class="float-right d-inline">7 days ago</p>
+                        <p class="mb-2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit harum odit possimus? Laboriosam tempora itaque quo quidem eius sunt.
+                        </p>
+                        
+                        <p class="text-dark d-inline">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            Ed
+                        </p>
+                        <p class="float-right d-inline">3 days ago</p>
+                        <p class="mb-2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit harum odit possimus? Laboriosam tempora itaque quo quidem eius sunt.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NestIn</title>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/indexstyle.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+<!-- NAVBAR -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top mb-5" id="topnav">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <img src="images/logo.jpeg" id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navcollapse">
+                <ul class="navbar-nav mr-auto">
+                    <form class="form-inline my-2 my-lg-0">
+                        <select id="city" class="form-control bg-black form-control-lg text-white">
+                            <option value="New Delhi" class="bg-black">New Delhi</option>
+                            <option value="Bangalore" selected="selected" class="bg-black text-white">Bangalore</option>
+                            <option value="Chennai" class="bg-black text-white">Chennai</option>
+                            <option value="Mumbai" class="bg-black text-white">Mumbai</option>
+                            <option value="Gurgaon" class="bg-black text-white">Gurgaon</option>
+                            <option value="Noida" class="bg-black text-white">Noida</option>
+                        </select>
+                    </form>
+                </ul>
+    
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#home" class="nav-link ml-2"><i class="fas fa-home"></i> HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#topsection" class="nav-link ml-2"><i class="fas fa-print"></i> SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#workspaces" class="nav-link ml-2"><i class="fas fa-align-left"></i>  LISTINGS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#form" class="nav-link ml-2"><i class="fas fa-user-plus"></i> SIGN UP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactheader" class="nav-link ml-2"><i class="fas fa-address-card"></i> CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </nav>
+
+<!-- JUMBOTRON  -->
+
+    <div class="container" id="home">
+        <div class="jumbotron mb-5 text-white">
+            <h1 class="display-2 mb-4">Welcome to NestIn</h1>
+            <hr>
+            <p class="lead d-none d-lg-block mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odio adipisci nesciunt commodi porro omnis saepe iusto itaque quo veritatis?</p>
+            <a href="#form" class="btn btn-lg btn-success">Get Started</a>
+        </div>
+    </div>
+
+<!-- TOP SECTION  -->
+
+    <div class="container mb-5" id="topsection">
+        <div class="d-flex justify-content-between align-items-center mb-0">
+            <div class="mt-3 mr-2">
+                <ol class="breadcrumb px-2 px-sm-4 py-1 py-sm-2">
+                    <li class="breadcrumb-item"><a href="#">Spaces</a></li>
+                    <li class="breadcrumb-item"><a href="#"><span class="cityname">Bangalore </span></a></li>
+                    <li class="breadcrumb-item active">Kormangala</li>
+                </ol>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-warning"><i class="fas fa-th-large text-dark"></i></button>
+                <button type="button" class="btn btn-success"><i class="fas fa-map-marker-alt"></i></button>
+            </div>
+        </div>
+        <hr class="mt-0">
+    </div>
+
+<!-- WORKSPACES DISPLAY  -->
+
+    <div class="container py-5 mb-5" id="workspaces">
+        <div class="row justify-content-around">
+            <div class="col-xl-5 wspace my-3 py-0 align-items-center">
+                <div class="row mb-3 align-items-center">
+                    <div class="col-md-6 mb-4">
+                        <a href="images/img1.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="images/img1.jpg" class="img-fluid">
+                        </a>  
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <h4>Workspace 1</h4>
+                        <hr class="mt-0">
+                        <p><strong>Address : </strong>221B, Baker Street</p>
+                        <p><strong>Pricing : </strong>$2000/month</p>
+                        <p><strong>Rating : </strong>4.5 out of 5 stars</p>
+                        <div>
+                            <a href="#" class="btn btn-outline btn-outline-success">More Details</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-xl-5 wspace my-3 py-4 align-items-center">
+                <div class="row mb-3 align-items-center">
+                    <div class="col-md-6 mb-4">
+                        <a href="images/img2.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="images/img2.jpg" class="img-fluid">
+                        </a>  
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <h4>Workspace 1</h4>
+                        <hr class="mt-0">
+                        <p><strong>Address : </strong>221B, Baker Street</p>
+                        <p><strong>Pricing : </strong>$2000/month</p>
+                        <p><strong>Rating : </strong>4.5 out of 5 stars</p>
+                        <div>
+                            <a href="#" class="btn btn-outline btn-outline-success">More Details</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-5 wspace my-3 align-items-center">
+                <div class="row mb-3 align-items-center">
+                    <div class="col-md-6 text-center mb-4">
+                        <a href="images/img3.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="images/img3.jpg" class="img-fluid">
+                        </a>  
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <h4>Workspace 3</h4>
+                        <hr class="mt-0">
+                        <p><strong>Address : </strong>221B, Baker Street</p>
+                        <p><strong>Pricing : </strong>$1100/month</p>
+                        <p><strong>Rating : </strong>3 out of 5 stars</p>
+                        <div>
+                            <a href="#" class="btn btn-outline btn-outline-success">More Details</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-5 wspace my-3 align-items-center py-4">
+                <div class="row mb-3 align-items-center">
+                    <div class="col-md-6 text-center mb-4">
+                        <a href="images/img4.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                            <img src="images/img4.jpg" class="img-fluid">
+                        </a>  
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <h4>Workspace 4</h4>
+                        <hr class="mt-0">
+                        <p><strong>Address : </strong>221B, Baker Street</p>
+                        <p><strong>Pricing : </strong>$1450/month</p>
+                        <p><strong>Rating : </strong>4 out of 5 stars</p>
+                        <div>
+                            <a href="#" class="btn btn-outline btn-outline-success">More Details</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5 mb-0">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                     </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<!-- CALL TO ACTION SECTION  -->
+
+    <div id="ctasection" class="mt-5">
+        <div class="dark-overlay py-5 text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 d-none d-md-block align-self-center">
+                        <h1 class="display-3 mb-3">Why choose Us</h1>
+                        <div class="d-flex">
+							<div class="p-4 align-self-center">
+								<i class="fas fa-check fa-2x bg-white text-dark p-2"></i>
+							</div>
+							<div class="p-4">
+								<p class="lead p-0 m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto in minima facere dolorem!</p>
+							</div>
+						</div>
+						<div class="d-flex">
+							<div class="p-4 align-self-center">
+								<i class="fas fa-check fa-2x bg-white text-dark p-2"></i>
+							</div>
+							<div class="p-4">
+								<p class="lead p-0 m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto in minima facere dolorem!</p>
+							</div>
+						</div>
+						<div class="d-flex">
+							<div class="p-4 align-self-center">
+								<i class="fas fa-check fa-2x bg-white text-dark p-2"></i>
+							</div>
+							<div class="p-4">
+								<p class="lead p-0 m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto in minima facere dolorem!<span class="badge badge-danger ml-2">  New</span></p>
+							</div>
+						</div>
+                    </div>
+                    <div class="col-lg-4 mt-3 mt-lg-0 justify-content-center">
+                        <div id="form" class="text-dark">
+                            <h3 class="text-center text-dark"> <strong>Sign Up Today</strong> </h3>
+                            <p class="text-center text-dark">Fill up this form to register</p>
+                            <form action="/register" method="POST" class="form">
+                                <div class="form-group" id="name">
+                                    <label for="#username">Username</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">
+                                                <i class="fas fa-user-tag"></i>
+                                            </span>
+                                        </div>
+                                        <input type="text" name="Username" id="username" class="form-control form-control-block" placeholder="Enter Username">
+                                    </div>
+                                </div>   
+                                <div class="form-group" id="mail">
+                                    <label for="#email">Email</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">
+                                                <i class="fas fa-at"></i>
+                                            </span>
+                                        </div>
+                                        <input type="email" id="email" placeholder="Enter email" name="email" class="form-control">
+                                    </div>
+                                    
+                                </div>
+                                <div class="form-group" id="pass">
+                                    <label for="#password">Password</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">
+                                                <i class="fas fa-key"></i>
+                                            </span>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="Enter Password" id="password" name="password">                                    
+                                    </div>
+                                </div>
+                                <div class="form-group" id="pass2">
+                                    <label for="#passconf">Confirm Password</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">
+                                                <i class="fas fa-lock"></i>
+                                            </span>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="Enter Password again" id="passconf" name="passconf">                                    
+                                    </div>
+                                    
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+<!-- REVIEW SECTION  -->
+
+    <div class="container py-5" id="reviews">
+        <h1 class="display-4 text-center">Reviews of our trusted customers</h1>
+        <hr class="mb-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita natus ratione dolorem adipisci inventore repellendus aliquam eius nam quas praesentium autem, ducimus obcaecati tempora minima quod nisi fugiat voluptate iste?</p>
+                        <p class="text-muted">Mr. Shaw - <cite>The daily times</cite></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3 bg-danger text-white">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita natus ratione dolorem adipisci inventore repellendus aliquam eius nam quas praesentium autem, ducimus obcaecati tempora minima quod nisi fugiat voluptate iste?</p>
+                        <p class="text-white">Mr. Shaw - <cite>The daily times</cite></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita natus ratione dolorem adipisci inventore repellendus aliquam eius nam quas praesentium autem, ducimus obcaecati tempora minima quod nisi fugiat voluptate iste?</p>
+                        <p class="text-muted">Mr. Shaw - <cite>The daily times</cite></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3 bg-danger text-white">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita natus ratione dolorem adipisci inventore repellendus aliquam eius nam quas praesentium autem, ducimus obcaecati tempora minima quod nisi fugiat voluptate iste?</p>
+                        <p class="text-white">Mr. Shaw - <cite>The daily times</cite></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita natus ratione dolorem adipisci inventore repellendus aliquam eius nam quas praesentium autem, ducimus obcaecati tempora minima quod nisi fugiat voluptate iste?</p>
+                        <p class="text-muted">Mr. Shaw - <cite>The daily times</cite></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3 bg-danger text-white">
+                    <div class="card-body">
+                        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita natus ratione dolorem adipisci inventore repellendus aliquam eius nam quas praesentium autem, ducimus obcaecati tempora minima quod nisi fugiat voluptate iste?</p>
+                        <p class=" text-white">Mr. Shaw - <cite>The daily times</cite></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- CONTACT SECTION  -->
+
+    <div id="contactheader">
+        <div class="dark-overlay py-5">
+            <h1 class="display-4 text-white text-center">Contact Us</h1>
+        </div>
+    </div>
+
+    <div class="py-5 container mt-4">
+        <div class="row">
+            <div class="col-lg-4 p-4 mx-2 mb-3" id="contactdetails">
+                <h3>Get in Touch</h3>
+                <p class="lead">Need to talk to Us? Feel free to give us a call, leave a mail, or send a letter as per your convenience</p>
+                <hr>
+                <h4>Address</h4>
+                <p>1/2-A, Central Secretariat Road, South Block, New Delhi</p>
+                <h4>Email</h4>
+                <p>nestincorporation_0106@gmail.com</p>
+                <h4>Phone</h4>
+                <p>+91 9377483029</p>
+            </div>
+            <div class="col-lg-7 mx-2 text-center p-4 mb-3" id="contactform">
+                <h3>Please fill out this form to contact us</h3>
+                <hr class="mb-4">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input type="text" placeholder="First Name" class="form-control">
+                        </div>					
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input type="text" placeholder="Last Name" class="form-control">
+                        </div>						
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input type="text" placeholder="Email" class="form-control">
+                        </div>					
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input type="text" placeholder="Phone Number" class="form-control">
+                        </div>						
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <button class="btn btn-outline-danger btn-block btn-lg mb-0">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="team" class="mt-5 pt-5">
+    	<div class="container text-center">
+            <h1 class="text-center">Meet our team</h1>
+            <p class="lead text-center mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dolor!</p>
+            <hr>
+            <div class="row mt-5">
+    			<div class="col-md-6 col-lg-3">
+    				<div class="card " >
+    					<div class="card-body teammember">
+    						<img src="images/person.png" class="img-fluid mb-3 rounded-circle author">
+    						<h3 class="card-title" id="t1">Steve Smith</h3>
+    						<h5 class="card-title text-muted">Founder</h5>
+    						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+    						<div class="row mt-5">
+    							<div class="col-4">
+    								<a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+    							</div>
+    							<div class="col-4">
+    								<a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+    							</div>   						
+    							<div class="col-4">
+    								<a href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6 col-lg-3">
+    				<div class="card ">
+    					<div class="card-body teammember">
+    						<img src="images/person.png" class="img-fluid mb-3 rounded-circle author">
+    						<h3 class="card-title" id="t2">Erling Haaland</h4>
+    						<h5 class="card-title text-muted">Co-Founder</h5>
+    						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+    						<div class="row mt-5">
+    							<div class="col-4">
+    								<a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+    							</div>
+    							<div class="col-4">
+    								<a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+    							</div>   						
+    							<div class="col-4">
+    								<a href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-3">
+    				<div class="card">
+    					<div class="card-body teammember">
+    						<img src="images/person.png" class="img-fluid mb-3 rounded-circle author">
+    						<h3 class="card-title" id="t3">John Doe</h4>
+    						<h5 class="card-title text-muted">Head of Design</h5>
+    						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+    						<div class="row mt-5 text-center justify-content-center">
+    							<div class="col-4 text-center text-white">
+    								<a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+    							</div>
+    							<div class="col-4">
+    								<a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+    							</div>   						
+    							<div class="col-4">
+    								<a href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-3">
+    				<div class="card ">
+    					<div class="card-body teammember">
+    						<img src="images/person.png" class="img-fluid mb-3 rounded-circle author">
+    						<h3 class="card-title" id="t4">Kevin Swanson</h4>
+    						<h5 class="card-title text-muted">Marketing Head</h5>
+    						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+    						<div class="row mt-5">
+    							<div class="col-4">
+    								<a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+    							</div>
+    							<div class="col-4">
+    								<a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+    							</div>   						
+    							<div class="col-4">
+    								<a href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+<!-- FOOTER SECTION  -->
+
+    <div class="pb-2 bg-black" id="footer">
+        <div class="container">
+            <div class="text-center">
+                <img src="images/logo.jpeg" class="img-fluid">
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-8 pb-3" id="faq">
+                    <h2 class="my-3 text-white text-center">Frequently Asked Questions</h2>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card bg-dark text-left text-white ">
+                                <div class="card-header text-white">
+                                    <a href="#q1" data-toggle="collapse" class="text-white">Question One</a>
+                                </div>
+                                <div class="collapse" id="q1">
+                                    <div class="card-body">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card text-left bg-dark text-white">
+                                <div class="card-header">
+                                    <a href="#q2" class="text-white" data-toggle="collapse">Question Two</a>
+                                </div>
+                                <div class="collapse" id="q2">
+                                    <div class="card-body">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card text-left bg-dark text-white">
+                                <div class="card-header">
+                                    <a href="#q3" class="text-white" data-toggle="collapse">Question Three</a>
+                                </div>
+                                <div class="collapse" id="q3">
+                                    <div class="card-body">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card text-left bg-dark text-white">
+                                <div class="card-header">
+                                    <a href="#q4" class="text-white" data-toggle="collapse">Question Four</a>
+                                </div>
+                                <div class="collapse" id="q4">
+                                    <div class="card-body">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card text-left bg-dark text-white">
+                                <div class="card-header">
+                                    <a href="#q5" class="text-white" data-toggle="collapse">Question Five</a>
+                                </div>
+                                <div class="collapse" id="q5">
+                                    <div class="card-body">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card text-left bg-dark text-white">
+                                <div class="card-header">
+                                    <a href="#q6" class="text-white" data-toggle="collapse">Question Six</a>
+                                </div>
+                                <div class="collapse" id="q6">
+                                    <div class="card-body">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3 mt-lg-0 text-white" id="details">
+                    <h2 class="text-center mb-4">Talk to Us</h2>
+                    <p class="text-center lead">Contact : +919377483029</p>
+                    <p class="text-center lead">Address : 1/2-A, Central Secretariat Road, South Block, New Delhi</p>
+                    <p class="lead text-center">Email ID : nestincorporation_0106@gmail.com</p>
+                </div>
+            </div>
+            <hr>
+            <p class="lead text-center text-white">Copyright <span>&copy;</span> 2020</p>
+        </div>
+    </div>
+
+    
+
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+    $('body').scrollspy({ target: '#topnav' });
+	    // Smooth Scrolling
+	    $("#topnav a").on('click', function () {
+	      if (this.hash !== "") {
+	        const hash = this.hash;
+	        $('html, body').animate({
+	          scrollTop: $(hash).offset().top
+	        }, 1000, function () {
+	          window.location.hash = hash;
+	        });
+	      }
+	    });
+</script>
+
+</body>
+</html>
