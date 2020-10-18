@@ -19,11 +19,11 @@ body{
 }
 
 .container {
-	width: 80%;
+	width: 81%;
 }
 
 hr{
-	width : 30%;
+	width : 31%;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
@@ -33,7 +33,7 @@ h1,h3 {
 
 h1{
 	font-size: 5em;
-	font-weight: 700;
+	font-weight: 701;
 }
 
 .btn .btn-default {
